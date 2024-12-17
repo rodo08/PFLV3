@@ -11,12 +11,12 @@ const Contact = () => {
       >
         Get in Touch
       </motion.h2>
-      <div className="text-center tracking-tighter">
+      <div className="text-center tracking-normal">
         <motion.p
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -100 }}
           transition={{ duration: 1 }}
-          className="my-4"
+          className="my-4 text-stone-400"
         >
           {CONTACT.address}
         </motion.p>
@@ -28,7 +28,7 @@ const Contact = () => {
         >
           {CONTACT.phone}
         </motion.p>
-        <a href="#" className="border-b">
+        <a href="#" className="border-b border-[#aa9260] text-[#aa9260]">
           {CONTACT.email}
         </a>
       </div>
