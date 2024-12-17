@@ -1,6 +1,8 @@
 import profilePic from "../assets/portfolioAvatar.png";
 import { HERO_CONTENT } from "../constants";
 import { motion } from "framer-motion";
+import "./Hero.css";
+import TiltCard from "./VanillaTilt";
 
 const containerVariants = {
   hidden: {
@@ -35,18 +37,22 @@ const Hero = () => {
   return (
     <div className="pb-4 lg:mb-36">
       <div className="flex flex-wrap lg:flex-row-reverse">
-        <div className="w-full lg:w-1/2">
-          <div className="flex justify-center lg:p-8">
-            <motion.img
-              src={profilePic}
-              className="border border-stone-900 rounded-tl-3xl rounded-br-3xl"
-              width={650}
-              height={650}
-              alt="Rodrigo"
-              initial={{ x: 100, opacity: 0 }}
-              animate={{ x: 0, opacity: 1 }}
-              transition={{ duration: 0.5, delay: 1.5 }}
-            />
+        <div className="w-full lg:w-1/2 ">
+          <div className="flex justify-center lg:p-8 ">
+            <TiltCard
+              options={{ max: 25, speed: 400, glare: true, "max-glare": 0.5 }}
+            >
+              <motion.img
+                src={profilePic}
+                className="border border-stone-900 rounded-tl-3xl rounded-br-3xl"
+                width={650}
+                height={650}
+                alt="Rodrigo"
+                initial={{ x: 100, opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ duration: 0.5, delay: 1.5 }}
+              />
+            </TiltCard>
           </div>
         </div>
         <div className="w-full lg:w-1/2">

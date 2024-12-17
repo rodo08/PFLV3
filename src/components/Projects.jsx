@@ -36,11 +36,11 @@ const Projects = () => {
               <h3 className="mb-2 font-semibold text-2xl">
                 {project.title}
                 <a
-                  className="pt-4 pl-2 text-md font-semibold text-yellow-600"
+                  className="pt-4 pl-2 text-sm font-semibold text-yellow-600"
                   href={project.link}
                   target="_blank"
                 >
-                  &#8599;
+                  LIVE &#8599;
                 </a>
               </h3>
 
