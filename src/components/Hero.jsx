@@ -3,6 +3,7 @@ import { HERO_CONTENT } from "../constants";
 import { motion } from "framer-motion";
 import "./Hero.css";
 import TiltCard from "./VanillaTilt";
+import resume from "../docs/Rodrigo_Rosales_Moya_CV-FullstackDev.pdf";
 
 const containerVariants = {
   hidden: {
@@ -82,7 +83,7 @@ const Hero = () => {
             </motion.p>
             <motion.a
               variants={childVariants}
-              href="../../public/Rodrigo_Rosales_Moya_CV-FullstackDev.pdf"
+              href={resume}
               target="_blank"
               rel="noreferrer noopener"
               download
