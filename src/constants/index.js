@@ -26,7 +26,7 @@ performance and cross-browser compatibility.`,
     description: `Developed in marketing graphics, social media design, print preparation, and web
 layout design, with expertise in HTML, CSS, Bootstrap, JavaScript, and MySQL
 database and API interaction.`,
-    technologies: ["HTML/CSS/JavaScript", "Adobe Creative Suite"],
+    technologies: ["HTML/CSS/JavaScript", "Adobe Suite"],
   },
   {
     year: "2012 - 2014",
@@ -34,7 +34,7 @@ database and API interaction.`,
     company: "Ají Marketing & Advertising",
     description: `Led art direction, layout design, illustration, and print preparation. Experience in web
 layout design, UX/UI, and coding with HTML, CSS, and JavaScript.`,
-    technologies: ["HTML/CSS/JavaScript", "Adobe Creative Suite"],
+    technologies: ["HTML/CSS/JavaScript", "Adobe Suite"],
   },
 ];
 
